@@ -1,12 +1,25 @@
-body {
+   
+  
+   
+   #css-body-id {
+        background: rgba(247, 255, 140, 0.678);
+        background-image: url(https://firstvet.com/uploaded/images/articles/cat-leg-lame.jpg);
+        background-size: 100%;
+        
+    }
+    .css-body-class{
+        background:green;
+        text-align: center;
 
-    background: grey;
-}
+    }
+    span{ 
+        
+        
+        font-size: 42px;
+        color: azure;
+     }
+    
 
-#css-body-id {
-    background: blue;!important;
-}
-
-.css-body-class{
-    background:green;
-}
+     .border {
+    color: azure;
+   }
