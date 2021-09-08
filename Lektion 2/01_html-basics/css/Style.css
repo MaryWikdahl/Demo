@@ -1,9 +1,18 @@
    
   
-   
+  .container {
+    background:rgb(214, 198, 180); ;
+    font-size: 22px;
+}
+
+}
+}
+.bg -info container {
+  background:wheat; ;
+}
    #css-body-id {
         background: rgba(247, 255, 140, 0.678);
-        background-image: url(https://firstvet.com/uploaded/images/articles/cat-leg-lame.jpg);
+        background-image: url(https://firstvet.com/uploaded/images/articles/cat-leg-lame.jpg) !important; 
         background-size: 100%;
         
     }
@@ -23,3 +32,4 @@
      .border {
     color: azure;
    }
+   

@@ -1,0 +1,31 @@
+#bajs {
+    background: rgba(247, 255, 140, 0.678);
+}
+.navbar navbar-light  bg-light{
+    background:black; !important
+}
+.container {
+    background: rgb(172, 152, 204);
+}
+.navbar-brand {
+    background: rgb(172, 152, 204);
+}
+./docs/5.1/assets/brand/bootstrap-logo.svg
+{
+   
+}
+
+.navbar-light {
+    background-color: rgb(172, 152, 204) !important;
+}
+
+span {
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
