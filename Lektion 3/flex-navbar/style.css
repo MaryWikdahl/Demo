@@ -1,0 +1,26 @@
+
+html, body{
+    
+    
+}
+.navbar-top{
+    
+    margin: 5px 0px;
+    background-color: antiquewhite;
+}
+
+
+
+.fa-clock{
+    margin-right: 0.3rem;
+align-items: center;
+}
+    
+.working-hour {
+    font-size: 2em;
+    align-items: center;
+}
+.navbar-top-items{
+    
+    justify-content: space-between;
+}
