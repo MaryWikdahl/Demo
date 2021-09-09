@@ -121,7 +121,7 @@ html, body {
     }
     .card{
         
-        margin-left: 30%;
+        margin-left: 20%;
         margin-top: auto;
         margin-bottom: auto;
         margin right: auto;
@@ -129,7 +129,7 @@ html, body {
         padding: auto;
         align-items: center;
         font-size: 10px;
-        width: 300px;
+        width: 300px; 
         
     }
     .card-body{
