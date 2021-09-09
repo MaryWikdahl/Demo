@@ -1,0 +1,138 @@
+* {
+    /* box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    margin:0;
+    padding: 0; */
+}
+
+
+
+html, body {
+    
+   
+}
+.border {
+    border: 1px solid ;
+}
+.container {
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-clock, .social-media{
+    
+    align-items:flex-start;
+    justify-content: space-between;
+    color: lightblue;
+}
+
+
+.navbar-top {
+    padding: 0.6rem 0;
+    margin-top: 10px;
+}
+
+.navbar-top-items {
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-top-items i {
+    font-size: 1.2em;
+}
+.sektion2 { 
+   
+   width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.sektion3{
+    width: 100%;
+    padding: 2rem 0;
+    background-color: lightgrey;
+}
+
+.sektion3-item{
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-female{
+    font-size: 400px;
+    margin-left: 20%;
+    }
+    .textrutan{
+        display: flex;
+        align-items: center;
+       
+    }
+    .text1{
+        font-size: 30px;
+    }
+    .text2{
+        font-size: 10px;
+    }
+.knapp{
+    display: flex;
+    margin-right: 60%;
+    font-size: 30px;
+    background-color: rgb(104, 230, 202);
+}
+.sektion4{
+    padding: 2rem 0;
+    
+}
+
+.sektion4-item{
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-male{
+    font-size: 400px;
+    float: left;
+    position: relative;
+    margin-right: 20%;
+    }
+    .textrutan1{
+        display: flex;
+        align-items: center;
+    }
+    .text1.1{
+        font-size: 30px;
+    }
+    .text2.1{
+        font-size: 10px;
+    }
+    .card{
+        
+        margin-left: 30%;
+        align-items: 100%;
+        font-size: 10px;
+        width: 300px;
+        
+        
+        
+    }
+    .sektion6{
+        background-color: lightblue;
+        font-size: 15px;
+    }
+    .knapp2{
+        margin-left: 80%;
+        background-color: blue;
+    }
+    .slut{
+        font-size: 10px;
+        background-color: blue;
+        
+        
+    }
