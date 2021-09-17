@@ -87,25 +87,27 @@ html, body {
 }
     
 .sektion4{
-    
-    /* padding: 2rem 0; */
+    height: 800px;
+
+    padding: 2rem 0;
     
 }
 
-.sektion4-item{
-  
+.text11{
+    margin-top: 100px;
     
+    margin-right: 100px;
+    border-bottom: 4px solid #25e6c8;
 }
+    
 
-    .text11{
-       margin-left: 100px;
-        font-size: 1px;
-        text-decoration: underline #25e6c8;
-    }
+
     .text22{
+    
         margin-right: 100px;
-        margin-top: 60px;
-        font-size: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        margin-bottom: 30px;
     }
     .col{
         background-color: lightgrey;
@@ -113,23 +115,44 @@ html, body {
 
     .sektion5{
         padding: 20px 20px 20px 20px;
+        'text-align: center;'
     }
+
+
     .text4{
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-decoration: underline #25e6c8;
+        font-size: 40px;
         
     }
     .sektion6{
+
+        justify-content: center;
         height: 800px;
         display: grid;
-        background-color: white;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 350px 350px 350px;
+        gap: 20px;
+        grid-template-columns: repeat(3, 350px);
+        grid-template-rows: 350px 350px;
         
       }
 
+    .box1, .box2, .box3, .box4, .box5, .box6{
+       background-color: white;
+       
+    }
+    .to{
     
+        
+        margin-top: 0;
+        margin-left: 133px;
+    }
+    .tand{
+        
+        position: relative;
+        left: -85px;
+        top: 9px;
+    }
 
     .rubrik{
         text-align: center;
@@ -141,13 +164,24 @@ html, body {
         text-align: center;
         margin-left: 90px;
         margin-right: 90px;
+        margin-bottom: 30px;
     }
     .to{
         margin-left: 115px;
         margin-top: 16px;
     }
     
-    
+    .box1 .tand{
+        left: -80px;
+    }
+    .box5 .tand{
+        left: -71.5px;
+       
+    }
+    .box6 .tand{
+        left:-79px;
+        top:10px;
+    }
    
     .sektion7{
         text-align: center;
