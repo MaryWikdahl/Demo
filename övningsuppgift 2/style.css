@@ -1,0 +1,25 @@
+.container{
+    width: 1400px;
+}
+.navbar .container {
+    padding-left: 150px;
+    padding-right: 120px;
+}
+.navbar{
+   background-color: blue;
+}
+.button{
+    background-color: #FFBB00;
+    border-radius: 10px;
+    padding:10px ;
+    font-size: 16px;
+    color:white;
+   
+}
+.nav-item{
+    font-size: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white !important;
+    font-weight: 10px;
+}
