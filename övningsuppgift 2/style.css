@@ -15,11 +15,18 @@
     border-style: none;
 }
 
-.header{
+.header .under{
     position: absolute;
     top: -700px;
     right: -150px;
     z-index: -900;
+}
+
+.header .övre{
+    position: absolute;
+    top: -700px;
+    right: -150px;
+    z-index: -11;
 }
 /* navbar */
 .navbar .container {
@@ -27,6 +34,7 @@
     padding-right: 7.1rem;
     height: 170px;
 }
+
 .navbar{
     
    color:white;
