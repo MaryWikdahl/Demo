@@ -90,7 +90,7 @@
     height: 340px;
     top:400px;
     right: 900px;
-    color: white;
+    
    ' /* font-family: 'Poppins', sans-serif;' */
 }
 .f1 h1{
@@ -102,14 +102,14 @@
 
 .bilder .bild1{
     border-radius: 15px;
-    background-color: white;
+    
     position: relative;
     top: 10px;
     right: -1000px;
 }
 .bilder .bild2{
     border-radius: 15px;
-    background-color: white;
+    
     position: relative;
     top: 100px;
     right:-550px;
