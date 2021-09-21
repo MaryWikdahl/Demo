@@ -1,9 +1,5 @@
-*{'@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{ '@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     font-family: 'Poppins', sans-serif;'
-}
-
-.container{
-    width: 1450px;
 }
 
 .about-us{
@@ -40,6 +36,46 @@
    color:white;
    font-weight: 30px;
 }
+
+.navbar button{
+    background-color: #FFBB00;
+    color:white; 
+    border-radius: 15px;
+    padding-left:40px ;
+    padding-right:40px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 55px;
+    font-size: 1rem;
+    border-style: none;}
+    
+.navbar .nav-item{
+    font-size: 1.1rem; 
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.navbar .nav-link{
+    color: white;
+    font-weight: 10px;
+}
+/* showcase */
+.f1{
+    padding-left: 30px;
+    position: absolute;
+    width: 600px;
+    height: 340px;
+    top:400px;
+    right: 900px;
+    color: white;
+}
+
+.f1 h1{
+    font-size: 57px;
+}
+.f1 p{
+    font-size: 15px;
+}
 .f2 p{
     margin-top: 15px;
     color: white;
@@ -59,46 +95,6 @@
    background-color: transparent;
    border: white 2px solid;
 }
-.navbar button{
-    background-color: #FFBB00;
-    color:white; 
-    border-radius: 15px;
-    padding-left:40px ;
-    padding-right:40px ;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: 55px;
-    font-size: 1rem;
-    border-style: none;}
-    
-.nav-item{
-    font-size: 1.1rem; 
-    margin-left: 20px;
-    margin-right: 20px;
-    
-}
-.nav-link{
-    color: white;
-    font-weight: 10px;
-}
-/* showcase */
-.f1{
-    padding-left: 30px;
-    position: absolute;
-     width: 600px;
-    height: 340px;
-    top:400px;
-    right: 900px;
-    color: white;
-   ' /* font-family: 'Poppins', sans-serif;' */
-}
-.f1 h1{
-    font-size: 57px;
-}
-.f1 p{
-    font-size: 15px;
-}
-
 .bilder .bild1{
     border-radius: 15px;
     
@@ -171,6 +167,10 @@
     
  }
  /* showcase 3 */
+ /* .showcase3{
+     background-color: #FCFCFC;
+     z-index: -1000;
+ } */
 .f3{
     height: 700px;
     width: 50%;
@@ -240,15 +240,166 @@ transform: rotate(-35deg);
     position: relative;
     top:50px;
     left:-410px;
-    z-index: -200;
+    z-index: -1;
     
 }
+/* något */
 .något{
 
     text-align: center;
     height: 200px;
 }
+/* showcase4 */
 .showcase4{
+    position: relative;
+    top:0px;
+    right: 0px;
     gap: 50px;
     justify-content: center;
+   
 }
+/* showcase5 */
+.showcase5{
+   margin-top: 100px;
+   
+    
+}
+.showcase5 img{
+    position: relative;
+    top: 0px;
+    left: 200px;
+    justify-content: center;
+}
+.showcase5> h1{
+    
+    position: absolute;
+    top: 3700px;
+    right: 35%;
+}
+.showcase5 >p{
+    text-align: center;
+    padding-right: 650px;
+    padding-left: 700px;
+    position: absolute;
+    top: 3770px;
+    right: 2%;
+}
+.summa{
+    justify-content: space-between;
+    position: absolute;
+    top: 3850px;
+    right: 260px;
+}
+.summa p{
+   position: relative;
+   top:0;
+   left: 55px;
+}
+.summa h1{
+    font-weight: 20px;
+   color: #1487fd; ;
+ }
+ /* showcase6 */
+ .showcase6{
+     height: 500px;
+     background-color: #1487fd;
+ }
+ .F{
+     position: relative;
+     top: -250px;
+     left:-300px;
+    }
+
+     .iphone{
+         position:absolute;
+         top:20px;
+         left:1200px;
+     }
+     .iphone1{
+        position:absolute;
+        top:20px;
+        left:1000px;
+    }
+    .iphone2{
+        position:absolute;
+        top:0px;
+        left:1100px;
+    }
+    .iphone, .iphone1, .iphone2{
+        z-index: 2;
+    }
+    .skikt{
+        padding-right: 900px;
+        position:absolute;
+        top:4150px;
+        left:300px;
+
+    }
+    /* contact */
+    .contact{
+    background-color: white;
+        width:100%;
+        z-index:3;
+        position: relative;
+        padding: 0px, 10rem;
+       text-align: center;
+        height: 500px; 
+        padding-top: 10px;
+      
+    }
+    .contact h1{
+      position: relative;
+        left:120px;
+        padding-right: 750px;
+        padding-left: 600px;
+    }
+    .contact p{
+         position: relative;
+          left:60px;
+          padding-right: 750px;
+          padding-left: 600px;
+      }
+      #grid{
+          display: grid;
+          grid-template-columns: 100px 100px;
+          grid-template-rows:60px 230px;
+          gap: 20px;
+          margin-top: 100px;
+          
+        }
+      .a, .b, .c
+      {
+          background-color:#FBFBFB !important;
+          font-size: 20px;
+          gap: 20px;
+          border-radius: 10px;
+          text-align: start;
+      }
+       .c{
+        grid-column: 1/1;
+      } 
+      
+      /* navbar2 */
+      .navbar2{
+          margin-top: 50px;
+          background-color:#1487fd;
+         text-align: center;
+      }
+      .navbar2 .nav-link{
+          color: white;
+        position: relative;
+        left: -320px;
+        font-weight:900;
+        font-size: 1.7rem;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .social-media{
+        position: relative;
+        left: 41.5%;
+        font-size: 2rem;
+        color: #5BACFE;
+        gap:27px;
+
+    }
+    
