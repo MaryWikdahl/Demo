@@ -337,66 +337,75 @@ transform: rotate(-35deg);
     }
     /* contact */
     .contact{
-    background-color: white;
-        width:100%;
-        z-index:3;
+        z-index:3; 
         position: relative;
-        padding: 0px, 10rem;
-       text-align: center;
-        height: 500px; 
-        padding-top: 10px;
-      
+       background-color: white; 
+       margin-top: -20px;
     }
+    
     .contact h1{
-      position: relative;
-        left:120px;
-        padding-right: 750px;
-        padding-left: 600px;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
     .contact p{
-         position: relative;
-          left:60px;
-          padding-right: 750px;
-          padding-left: 600px;
+
+          padding-right: 720px;
+          padding-left: 630px;
+         display: flex;
+         text-align: center;
+        align-items: center;
+        justify-content: center;
       }
       #grid{
+         display: flex;
+         justify-content: center;
           display: grid;
-          grid-template-columns: 100px 100px;
-          grid-template-rows:60px 230px;
-          gap: 20px;
+          grid-template-columns: 550px 550px;
+          grid-template-rows:75px 230px;
+          column-gap: 40px;
           margin-top: 100px;
           
+          color: #CCCCCC;
+          
         }
-      .a, .b, .c
-      {
-          background-color:#FBFBFB !important;
+      #grid h1{background-color:#FBFBFB;
           font-size: 20px;
           gap: 20px;
           border-radius: 10px;
-          text-align: start;
+          
       }
-       .c{
-        grid-column: 1/1;
-      } 
+       .c{background-color:#FBFBFB;
+        grid-column: 1/-1;}
+        .c h1{
+            display: flex;
+            align-items: flex-start;
+        }
+      
       
       /* navbar2 */
       .navbar2{
-          margin-top: 50px;
+          margin-top: 100px;
+          height: 300px;
+          margin-top: 150px;
           background-color:#1487fd;
-         text-align: center;
+        text-align: center;
       }
       .navbar2 .nav-link{
           color: white;
         position: relative;
         left: -320px;
+      
         font-weight:900;
         font-size: 1.7rem;
         font-family: 'Poppins', sans-serif;
-        
+       
     }
     .social-media{
-        position: relative;
-        left: 41.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 2rem;
         color: #5BACFE;
         gap:27px;
