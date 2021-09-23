@@ -1,5 +1,13 @@
-*{@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
-   font-family: 'Roboto', sans-serif;font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{font-family: 'Roboto', sans-serif;font-family: 'Roboto', sans-serif;}
+html, body{
+   max-width: 1920px;
+   max-height: none;
+   min-width: 1900px;
+    
 }
 .container{
     width: 1170px;
@@ -9,7 +17,7 @@
     padding-bottom: 0%;
 }
 #backgrund{
-    
+    min-width:1887,98;
     position: absolute;
     top: 0px;
     right: -30px;
@@ -17,17 +25,17 @@
 }
 /* navbar */
 .navbar{
-    padding-top: 40px;
+    padding-top: 41px;
     padding-bottom: 35px;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: medium;
     color: black;
     
 }
 a.nav-link{
     padding:6px 0px 0px 0px;
-    margin-left:25px ;
-    margin-right: 25px;
+    margin-left:22.5px ;
+    margin-right: 22.5px;
     color: black;
 }
 .navbar button{
@@ -37,6 +45,8 @@ a.nav-link{
     border-radius: 7px;
     padding: 0%;
     margin-right: 0%;
+    border-color: #FF6803;
+    font-weight: medium;
 }
 .navbar i{
     display: flex;
@@ -47,5 +57,243 @@ a.nav-link{
 
 /* showcase */
 #showcase{
-    height: 850px;
+   
+    
 }
+
+.pictures .picture1{
+position: relative;
+top: -100px;
+left: -50px;
+z-index: -1;
+}
+.pictures .picture2{
+    position: relative;
+    top: -280px;
+    left: -490px;
+    z-index: 1;
+
+}
+.pictures .picture3{
+
+    position: relative;
+    top: -70px;
+    left: -1300px;
+    z-index: 2;
+}
+#showcase .f1{
+    padding-top: 230px;
+   
+   
+}
+#showcase .f1 h1{
+    line-height: 60px;
+    font-size: 60px;
+    font-weight: bold;
+     padding-right: 140px; 
+     width: 624px; 
+     height: 234; 
+     font-family: 'Poppins', sans-serif;
+}
+#showcase .f1 p{
+    font-size: 18px;
+    line-height: 30px;
+    padding-top:32px;
+    padding-right: 200px;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;font-family: 'Roboto', sans-serif;
+    
+}
+#showcase .f1 button{
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 250px;
+    height: 60px;
+    background: rgb(242,55,121);
+    background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
+}
+/* showcase2 */
+
+
+#showcase2{
+    display: flex;
+}
+#showcase2 .f1 h1{
+    line-height: 60px;
+    font-size: 60px;
+    font-weight: Bold;
+     padding-right: 160px; 
+     width: 624px; 
+     height: 234; 
+     font-family: 'Poppins', sans-serif;
+    }
+#showcase2 .f1 p{
+    font-size: 18px;
+    line-height: 30px;
+    padding-top:32px;
+    padding-right: 170px;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;font-family: 'Roboto', sans-serif; 
+}
+#showcase2 .f1 button{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 140px;
+    height: 50px;
+    background: rgb(242,55,121);
+    background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
+    font-weight: bold;
+}
+
+#showcase2, .f2{
+   margin-right: 300px;
+    display: flex;
+}
+#showcase2 .f2 h3{
+    width: 261px;
+    font-weight: bold;
+    line-height: 60px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+
+}
+#showcase2 .f2 p{
+font-size: 18px;
+line-height: 30px;
+}
+#showcase2 .f2 .column1 {
+    padding-right: 150px;
+}
+
+#showcase .f2 p > img{
+  gap:300px
+}
+#showcase2 .f2 .test{
+    padding-top: 70px;
+}
+/* showcase3 */
+#showcase3{
+    display: flex;
+    margin-top: 150px;
+}
+#showcase3 .f1{
+    position: relative;
+    top: 100px;
+    left:-130px;
+}
+#showcase3 h1{
+    position: relative;
+    top:0px;
+    left:-90px;
+    line-height: 60px;
+    font-size: 48px;
+    font-weight: Bold;
+     width: 470px; 
+     height: 190; 
+     
+     font-family: 'Poppins', sans-serif;
+    }
+    #showcase3 h3{
+      
+        line-height: 30px;
+        font-size: 24px;
+        font-weight: semibold;
+         font-family: 'Poppins', sans-serif;
+        }
+        #showcase3 p{
+            
+            line-height: 30px;
+            font-size: 18px;
+            padding-right: 120px;
+    
+            }
+    #showcase3 .f2{
+        padding-left: 100px;
+        display: block;
+    }
+    #showcase3 .numbers{
+        position: relative;
+        top: 65px;
+        left: -90px;
+        font-size: 60px;
+        color:#F23779 ;
+    }
+    /* showcase4 */
+    #showcase4{
+        padding-top: 150px;
+      text-align: center;
+    }
+    #showcase4 h1{
+        padding-left: 275px;
+        padding-right: 275px;
+        line-height: 60px;
+        font-size: 48px;
+        font-weight: Bold; 
+         font-family: 'Poppins', sans-serif;
+      }
+      #showcase4 p{
+        padding-top: 50px;
+        padding-left: 315px;
+        padding-right: 315px;
+        line-height: 30px;
+        font-size: 18px; 
+         
+      }
+     
+     .numbers{
+         display: flex;
+         justify-content: space-between;
+         position: relative;
+         top: -280px;
+         right: -25px;
+     }
+     .numbers p{
+        font-size: 18px;
+        
+     }
+     .numbers h1{
+         font-weight: bold;
+        color: #F23779; 
+        line-height: 30px;
+        font-family: 'Poppins', sans-serif;
+      }
+      .square{
+          background-color: white;
+          width: 630px;
+          height: 139px;
+          display:flex;
+          box-shadow: #707070 2px 2px 2px 2px;
+          position: relative;
+          top: -200px;
+          left: 70px;
+          border-radius: 5px;
+      }
+      .square h3{
+          font-weight: semibold;
+          margin-top: 40px;
+          margin-left: 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 21px;
+        font-weight: semibold;
+       
+      }
+      .square p{
+        margin-left: 5px;
+          font-size: 18px;
+          
+      }
+      .square button{
+        margin-top: 40px;
+        margin-left: 60px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        width: 140px;
+        height: 50px;
+        background: rgb(242,55,121);
+        background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
+        font-weight: bold;
+      }
