@@ -56,25 +56,23 @@ a.nav-link{
 }
 
 /* showcase */
-#showcase{
-   
-    
-}
 
-.pictures .picture1{
+
+#showcase .picture1{
+
 position: relative;
 top: -100px;
 left: -50px;
 z-index: -1;
 }
-.pictures .picture2{
+#showcase .picture2{
     position: relative;
     top: -280px;
     left: -490px;
     z-index: 1;
 
 }
-.pictures .picture3{
+#showcase .picture3{
 
     position: relative;
     top: -70px;
@@ -115,18 +113,19 @@ z-index: -1;
     background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
 }
 /* showcase2 */
-
-
 #showcase2{
     display: flex;
+}
+#showcase2 .f1{
+    margin-left: 130px;
+    width: 624px; 
+     height: 234; 
 }
 #showcase2 .f1 h1{
     line-height: 60px;
     font-size: 60px;
     font-weight: Bold;
      padding-right: 160px; 
-     width: 624px; 
-     height: 234; 
      font-family: 'Poppins', sans-serif;
     }
 #showcase2 .f1 p{
@@ -147,33 +146,32 @@ z-index: -1;
     background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
     font-weight: bold;
 }
-
-#showcase2, .f2{
-   margin-right: 300px;
-    display: flex;
-}
 #showcase2 .f2 h3{
-    width: 261px;
     font-weight: bold;
     line-height: 60px;
     font-size: 22px;
     font-family: 'Poppins', sans-serif;
 
 }
+#showcase2 .f2{
+  display: grid;
+   grid-template-columns: 261px 261px ;
+   grid-template-rows: 237px 237px;
+   margin-left: 220px;
+   row-gap: 80px ;
+   column-gap: 148px;
+}
+
 #showcase2 .f2 p{
 font-size: 18px;
 line-height: 30px;
 }
-#showcase2 .f2 .column1 {
-    padding-right: 150px;
+
+#showcase2 .f2 .column1{
+
 }
 
-#showcase .f2 p > img{
-  gap:300px
-}
-#showcase2 .f2 .test{
-    padding-top: 70px;
-}
+
 /* showcase3 */
 #showcase3{
     display: flex;
@@ -211,7 +209,8 @@ line-height: 30px;
     
             }
     #showcase3 .f2{
-        padding-left: 100px;
+        margin: 0px;
+        padding-left: 50px;
         display: block;
     }
     #showcase3 .numbers{
@@ -226,7 +225,7 @@ line-height: 30px;
         padding-top: 150px;
       text-align: center;
     }
-    #showcase4 h1{
+    #showcase4 > h1{
         padding-left: 275px;
         padding-right: 275px;
         line-height: 60px;
@@ -234,55 +233,56 @@ line-height: 30px;
         font-weight: Bold; 
          font-family: 'Poppins', sans-serif;
       }
-      #showcase4 p{
+      #showcase4 > p{
         padding-top: 50px;
         padding-left: 315px;
         padding-right: 315px;
         line-height: 30px;
         font-size: 18px; 
-         
+     
       }
      
-     .numbers{
-         display: flex;
-         justify-content: space-between;
+     #showcase4 .numbers{
+       display: flex;
+       justify-content: space-between;
          position: relative;
          top: -280px;
          right: -25px;
      }
-     .numbers p{
+     #showcase4 .numbers > p{
         font-size: 18px;
         
      }
-     .numbers h1{
+     #showcase4 .numbers h1{
          font-weight: bold;
         color: #F23779; 
         line-height: 30px;
         font-family: 'Poppins', sans-serif;
       }
       .square{
+          
           background-color: white;
           width: 630px;
           height: 139px;
           display:flex;
           box-shadow: #707070 2px 2px 2px 2px;
           position: relative;
-          top: -200px;
-          left: 70px;
-          border-radius: 5px;
+          top: -230px;
+          left: 300px;
+          border-radius: 10px;
       }
       .square h3{
-          font-weight: semibold;
-          margin-top: 40px;
-          margin-left: 5px;
+        font-weight: semibold;
+        margin-top: 40px;
+        margin-left: 5px;
         font-family: 'Poppins', sans-serif;
         font-size: 21px;
         font-weight: semibold;
        
       }
       .square p{
-        margin-left: 5px;
-          font-size: 18px;
+        font-size: 18px;
+        margin-right: 7px;
           
       }
       .square button{
@@ -297,3 +297,53 @@ line-height: 30px;
         background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
         font-weight: bold;
       }
+      /* showcase7 */
+      #showcase7{
+        justify-content: center;
+    
+        display: grid;
+        column-gap: 25px;
+        grid-template-columns: repeat(3, 370px);
+        grid-template-rows: 565px;
+        
+      }
+
+    #showcase7 h1{
+        
+        line-height: 30px;
+        font-size: 22px;
+        font-weight: Bold; 
+         font-family: 'Poppins', sans-serif;
+       
+    }
+    #showcase7 p{
+        font-size: 18px;
+        font-weight: 30px;
+    }
+   
+    #showcase7 h5{
+        color: #FF6803;
+        line-height: 85px;
+        font-size: 14px;
+      
+         font-family: 'Poppins', sans-serif;
+       
+    }
+    
+    
+#showcase7 button{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        width: 120px;
+        height: 45px;
+        background: rgb(242,55,121);
+        background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
+        
+}
+   
+   
+   
