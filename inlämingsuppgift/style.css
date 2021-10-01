@@ -1,151 +1,190 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
-/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');*{
+box-sizing: border-box;
+margin:0;
+line-height: 1.5;
+font-family: 'Roboto', sans-serif;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-*{font-family: 'Roboto', sans-serif;font-family: 'Roboto', sans-serif;}
-html, body{
-   max-width: 1920px;
-   max-height: none;
-   min-width: 1900px;
+/* #showcase .picture1{
+    pointer-events: none;
+    position: absolute;
+    top: 0px;
+    left: 720px;
+    z-index: -1;
+    }
+    #showcase .picture2{
+        pointer-events: none;
+        position: relative;
+        top: -230px;
+        left: 550px;
+        z-index: 1;
+        
     
+    }
+    #showcase .picture3{
+        pointer-events: none;
+        position: relative;
+        top: -35px;
+        left: -290px;
+        z-index: 2;
+    } */
+}
+html, body{
+ overflow-x: hidden;  
 }
 .container{
     width: 1170px;
-    padding-left: 0%;
-    padding-right: 0%;
-    padding-top: 0%;
-    padding-bottom: 0%;
+    padding:auto;
+    margin:auto; 
+}
+h1{
+    line-height: 60px;
+    font-size: 48px;
+    font-weight: bold;
+    color:#252525;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #57647C;
+}
+
+button {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+    background: rgb(242,55,121);
+    background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 100%, rgba(255,166,46,1) 100%);
+    border-radius: 5px;
 }
 #backgrund{
-    min-width:1887,98;
+    min-width:1887.98px;
+    background-size:1887.98px;
     position: absolute;
     top: 0px;
-    right: -30px;
+    right: 0px;
     z-index:-10;
 }
 /* navbar */
-.navbar{
-    padding-top: 41px;
-    padding-bottom: 35px;
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 51px;
+    padding-bottom: 39px;
     font-size: 17px;
     font-weight: medium;
-    color: black;
-    
+    color: black; 
 }
+
+#navbar.container{
+   border-bottom: #57647c44 solid 2px; 
+    height: 115px;
+}
+.nav-nav{
+   text-align: center;
+    list-style: none;
+     display: flex;
+}
+li.navitem{
+   padding-top: 8px;
+}
+
 a.nav-link{
+    text-decoration: none;
     padding:6px 0px 0px 0px;
     margin-left:22.5px ;
     margin-right: 22.5px;
     color: black;
 }
-.navbar button{
-    background-color: transparent;
+#navbar button{
+    font-size: 17px;
+    line-height: 23px;
+    color: black;
+    background: transparent;
     height: 42px;
     width: 139px;
-    border-radius: 7px;
-    padding: 0%;
-    margin-right: 0%;
-    border-color: #FF6803;
-    font-weight: medium;
+    font-weight: 400;
+    border: 2px solid #FF6803;
 }
-.navbar i{
+
+#navbar i{
     display: flex;
     align-self: center;
+   margin-top: 3px;
     margin-right: 30px;
     margin-left: 5px;
 }
 
 /* showcase */
+#showcase{
+    display: flex;
 
+}
 
 #showcase .picture1{
-
+pointer-events: none;
 position: relative;
-top: -100px;
-left: -50px;
+top: -120px;
+left: -90px;
 z-index: -1;
 }
 #showcase .picture2{
+    pointer-events: none;
     position: relative;
-    top: -280px;
-    left: -490px;
+    top: -300px;
+    left: -530px;
     z-index: 1;
 
 }
 #showcase .picture3{
-
+    pointer-events: none;
     position: relative;
-    top: -70px;
-    left: -1300px;
+    top: -100px;
+    left: -1360px;
     z-index: 2;
 }
 #showcase .f1{
-    padding-top: 230px;
-   
-   
+    padding-top: 215px;
 }
 #showcase .f1 h1{
-    line-height: 60px;
     font-size: 60px;
-    font-weight: bold;
-     padding-right: 140px; 
      width: 624px; 
-     height: 234; 
-     font-family: 'Poppins', sans-serif;
+     height: 179px; 
 }
 #showcase .f1 p{
-    font-size: 18px;
-    line-height: 30px;
-    padding-top:32px;
-    padding-right: 200px;
-    padding-bottom: 25px;
-    font-family: 'Roboto', sans-serif;font-family: 'Roboto', sans-serif;
-    
+    padding-right: 180px;
+    padding-bottom: 35px;   
 }
 #showcase .f1 button{
-    font-weight: bold;
-    border-radius: 10px;
     border: none;
-    color: white;
     width: 250px;
     height: 60px;
-    background: rgb(242,55,121);
-    background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
-}
-/* showcase2 */
+    }
+    /* showcase2 */
 #showcase2{
     display: flex;
+    margin-top: -150px;
 }
 #showcase2 .f1{
-    margin-left: 130px;
-    width: 624px; 
-     height: 234; 
+    width: 444px; 
+    height: 333; 
 }
 #showcase2 .f1 h1{
-    line-height: 60px;
-    font-size: 60px;
-    font-weight: Bold;
-     padding-right: 160px; 
-     font-family: 'Poppins', sans-serif;
+     padding-right: 40px;
     }
 #showcase2 .f1 p{
-    font-size: 18px;
-    line-height: 30px;
     padding-top:32px;
-    padding-right: 170px;
+    padding-right: 0px;
     padding-bottom: 25px;
-    font-family: 'Roboto', sans-serif;font-family: 'Roboto', sans-serif; 
-}
+    }
 #showcase2 .f1 button{
     border-radius: 10px;
     border: none;
-    color: white;
     width: 140px;
     height: 50px;
-    background: rgb(242,55,121);
-    background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
-    font-weight: bold;
-}
+    }
 #showcase2 .f2 h3{
     font-weight: bold;
     line-height: 60px;
@@ -155,20 +194,11 @@ z-index: -1;
 }
 #showcase2 .f2{
   display: grid;
+   margin-left:56px;
    grid-template-columns: 261px 261px ;
    grid-template-rows: 237px 237px;
-   margin-left: 220px;
-   row-gap: 80px ;
    column-gap: 148px;
-}
-
-#showcase2 .f2 p{
-font-size: 18px;
-line-height: 30px;
-}
-
-#showcase2 .f2 .column1{
-
+   row-gap:70px;
 }
 
 
@@ -180,31 +210,22 @@ line-height: 30px;
 #showcase3 .f1{
     position: relative;
     top: 100px;
-    left:-130px;
+    left:-170px;
 }
 #showcase3 h1{
     position: relative;
     top:0px;
     left:-90px;
-    line-height: 60px;
-    font-size: 48px;
-    font-weight: Bold;
      width: 470px; 
      height: 190; 
-     
-     font-family: 'Poppins', sans-serif;
-    }
+ }
     #showcase3 h3{
-      
         line-height: 30px;
         font-size: 24px;
-        font-weight: semibold;
+        font-weight: 600;
          font-family: 'Poppins', sans-serif;
         }
         #showcase3 p{
-            
-            line-height: 30px;
-            font-size: 18px;
             padding-right: 120px;
     
             }
@@ -216,7 +237,7 @@ line-height: 30px;
     #showcase3 .numbers{
         position: relative;
         top: 65px;
-        left: -90px;
+        left: -110px;
         font-size: 60px;
         color:#F23779 ;
     }
@@ -227,19 +248,12 @@ line-height: 30px;
     }
     #showcase4 > h1{
         padding-left: 275px;
-        padding-right: 275px;
-        line-height: 60px;
-        font-size: 48px;
-        font-weight: Bold; 
-         font-family: 'Poppins', sans-serif;
+        padding-right: 275px;    
       }
       #showcase4 > p{
         padding-top: 50px;
         padding-left: 315px;
         padding-right: 315px;
-        line-height: 30px;
-        font-size: 18px; 
-     
       }
      
      #showcase4 .numbers{
@@ -249,101 +263,89 @@ line-height: 30px;
          top: -280px;
          right: -25px;
      }
-     #showcase4 .numbers > p{
-        font-size: 18px;
-        
-     }
+    
      #showcase4 .numbers h1{
-         font-weight: bold;
         color: #F23779; 
-        line-height: 30px;
-        font-family: 'Poppins', sans-serif;
+        line-height: 30px; 
+        font-size: 42px;
+        font-weight: 600;
       }
       .square{
-          
           background-color: white;
           width: 630px;
           height: 139px;
           display:flex;
-          box-shadow: #707070 2px 2px 2px 2px;
+          box-shadow: #70707048 4px 4px 4px 4px;
           position: relative;
           top: -230px;
           left: 300px;
           border-radius: 10px;
       }
       .square h3{
-        font-weight: semibold;
+        font-weight: 600;
         margin-top: 40px;
-        margin-left: 5px;
+        margin-left: 12px;
         font-family: 'Poppins', sans-serif;
         font-size: 21px;
-        font-weight: semibold;
-       
       }
-      .square p{
-        font-size: 18px;
-        margin-right: 7px;
-          
+      #showcase4 .square p{
+          text-align: start;
+          margin-left: 12px;
       }
       .square button{
         margin-top: 40px;
         margin-left: 60px;
-        border-radius: 10px;
         border: none;
-        color: white;
         width: 140px;
         height: 50px;
-        background: rgb(242,55,121);
-        background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
-        font-weight: bold;
       }
+/* showcase5 */
+#showcase5{
+  text-align: center;
+}
+#showcase5 > h1{
+    padding-left: 275px;
+    padding-right: 275px;
+  }
+  #showcase5 > p{
+    padding-top: 50px;
+    padding-left: 315px;
+    padding-right: 315px; 
+    padding-bottom: 50px;
+ 
+  }
+
       /* showcase7 */
       #showcase7{
         justify-content: center;
-    
         display: grid;
         column-gap: 25px;
         grid-template-columns: repeat(3, 370px);
-        grid-template-rows: 565px;
-        
+        grid-template-rows: 565px;   
       }
 
     #showcase7 h1{
-        
         line-height: 30px;
-        font-size: 22px;
-        font-weight: Bold; 
-         font-family: 'Poppins', sans-serif;
-       
+        font-size: 22px;  
     }
-    #showcase7 p{
-        font-size: 18px;
-        font-weight: 30px;
-    }
+
    
     #showcase7 h5{
         color: #FF6803;
         line-height: 85px;
         font-size: 14px;
-      
          font-family: 'Poppins', sans-serif;
-       
     }
     
-    
+    #showcase7 .box1, .box2, .box3 {
+        box-shadow: #70707048 4px 4px 4px 4px;
+    }
 #showcase7 button{
     font-size: 14px;
-    font-weight: bold;
-    line-height: 30px;
-        border-radius: 10px;
         border: none;
-        color: white;
         width: 120px;
         height: 45px;
-        background: rgb(242,55,121);
-        background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 50%, rgba(252,139,83,1) 100%);
-        
-}
+    }
    
    
    
