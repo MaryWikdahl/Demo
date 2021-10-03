@@ -31,11 +31,13 @@ font-family: 'Roboto', sans-serif;
 html, body{
  overflow-x: hidden;  
 }
+/* container */
 .container{
     width: 1170px;
     padding:auto;
     margin:auto; 
 }
+/* rubrikerna */
 h1{
     line-height: 60px;
     font-size: 48px;
@@ -43,13 +45,15 @@ h1{
     color:#252525;
     font-family: 'Poppins', sans-serif;
 }
+/* brödtexten */
 p{
     font-size: 18px;
     line-height: 30px;
     color: #57647C;
 }
-
+/* knapparna */
 button {
+    cursor: pointer;
     font-size: 16px;
     line-height: 30px;
     font-weight: bold;
@@ -58,6 +62,7 @@ button {
     background: linear-gradient(90deg, rgba(242,55,121,1) 0%, rgba(255,104,3,1) 100%, rgba(255,166,46,1) 100%);
     border-radius: 5px;
 }
+/* bakgrundsbilden */
 #backgrund{
     min-width:1887.98px;
     background-size:1887.98px;
@@ -120,9 +125,7 @@ a.nav-link{
 /* showcase */
 #showcase{
     display: flex;
-
 }
-
 #showcase .picture1{
 pointer-events: none;
 position: relative;
@@ -136,7 +139,6 @@ z-index: -1;
     top: -300px;
     left: -530px;
     z-index: 1;
-
 }
 #showcase .picture3{
     pointer-events: none;
@@ -161,8 +163,10 @@ z-index: -1;
     border: none;
     width: 250px;
     height: 60px;
-    }
-    /* showcase2 */
+}
+
+ /* showcase2 */
+
 #showcase2{
     display: flex;
     margin-top: -150px;
@@ -190,7 +194,6 @@ z-index: -1;
     line-height: 60px;
     font-size: 22px;
     font-family: 'Poppins', sans-serif;
-
 }
 #showcase2 .f2{
   display: grid;
@@ -218,17 +221,17 @@ z-index: -1;
     left:-90px;
      width: 470px; 
      height: 190; 
- }
+    }
     #showcase3 h3{
         line-height: 30px;
         font-size: 24px;
         font-weight: 600;
          font-family: 'Poppins', sans-serif;
         }
-        #showcase3 p{
-            padding-right: 120px;
+  #showcase3 p{
+        padding-right: 120px;
     
-            }
+    }
     #showcase3 .f2{
         margin: 0px;
         padding-left: 50px;
@@ -241,35 +244,35 @@ z-index: -1;
         font-size: 60px;
         color:#F23779 ;
     }
+
     /* showcase4 */
     #showcase4{
+        margin-bottom: -4rem;
         padding-top: 150px;
-      text-align: center;
+        text-align: center;
     }
     #showcase4 > h1{
-        padding-left: 275px;
-        padding-right: 275px;    
+        padding-left: 200px;
+        padding-right: 200px;    
       }
       #showcase4 > p{
         padding-top: 50px;
         padding-left: 315px;
         padding-right: 315px;
       }
-     
      #showcase4 .numbers{
-       display: flex;
-       justify-content: space-between;
-         position: relative;
-         top: -280px;
-         right: -25px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: -280px;
+        right: 0px;
      }
-    
      #showcase4 .numbers h1{
         color: #F23779; 
         line-height: 30px; 
         font-size: 42px;
         font-weight: 600;
-      }
+        }
       .square{
           background-color: white;
           width: 630px;
@@ -298,53 +301,60 @@ z-index: -1;
         border: none;
         width: 140px;
         height: 50px;
-      }
+    }
+
 /* showcase5 */
 #showcase5{
   text-align: center;
 }
 #showcase5 > h1{
-    padding-left: 275px;
-    padding-right: 275px;
+    padding-left: 300px;
+    padding-right: 300px;
   }
   #showcase5 > p{
     padding-top: 50px;
     padding-left: 315px;
     padding-right: 315px; 
     padding-bottom: 50px;
- 
   }
 
-      /* showcase7 */
-      #showcase7{
+      /* showcase */
+      #showcase6{
         justify-content: center;
         display: grid;
         column-gap: 25px;
         grid-template-columns: repeat(3, 370px);
-        grid-template-rows: 565px;   
+        grid-template-rows: 565px;  
+        padding-bottom: 104px; 
       }
 
-    #showcase7 h1{
+    #showcase6 h1{
         line-height: 30px;
         font-size: 22px;  
+        padding: 0px 27px; 
     }
 
-   
-    #showcase7 h5{
+    #showcase6 h5{
         color: #FF6803;
         line-height: 85px;
         font-size: 14px;
-         font-family: 'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        padding: 0px 27px;
+        margin:-10px 0px -27px 0px
     }
     
-    #showcase7 .box1, .box2, .box3 {
-        box-shadow: #70707048 4px 4px 4px 4px;
+    #showcase6 .box1, .box2, .box3 {
+        box-shadow: 10px 0px 30px -2px rgba(0, 0, 0, 0.16);
     }
-#showcase7 button{
+    #showcase6 p{
+        padding: 0px 27px;
+    }
+#showcase6 button{
     font-size: 14px;
         border: none;
         width: 120px;
         height: 45px;
+        margin: 27px 0px 27px 27px;
     }
    
    

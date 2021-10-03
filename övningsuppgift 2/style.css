@@ -1,6 +1,6 @@
-*{ '@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-    font-family: 'Poppins', sans-serif;'
-}
+*@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap")
+ $font-family: 'Poppins', sans-serif;
+
 
 .about-us{
     border-radius: 10px;
@@ -303,11 +303,16 @@ transform: rotate(-35deg);
  .showcase6{
      height: 500px;
      background-color: #1487fd;
+     color: white;
+ }
+ .showcase6 button{
+     border: none;
  }
  .F{
+    
      position: relative;
-     top: -250px;
-     left:-300px;
+     top: -400px;
+     left:-400px;
     }
 
      .iphone{
@@ -319,6 +324,7 @@ transform: rotate(-35deg);
         position:absolute;
         top:20px;
         left:1000px;
+        
     }
     .iphone2{
         position:absolute;
@@ -329,12 +335,16 @@ transform: rotate(-35deg);
         z-index: 2;
     }
     .skikt{
-        padding-right: 900px;
         position:absolute;
         top:4150px;
         left:300px;
-
     }
+    .skikt h1{
+    padding-right: 1200px;
+    }
+    .skikt p{
+        padding-right: 1300px;
+        }
     /* contact */
     .contact{
         z-index:3; 
@@ -383,9 +393,22 @@ transform: rotate(-35deg);
             align-items: flex-start;
         }
       
-      
+       .contact button{
+           margin-top: 50px;
+           margin-left: 850px;
+           border-radius: 15%;
+           padding: 10px 40px;
+           background-color: #1487fd;
+           color:white;
+           font-size: 1.5rem;
+           font-weight: 900;
+           border:none;
+        }
+           
       /* navbar2 */
       .navbar2{
+          z-index: -3;
+          position: relative;
           margin-top: 100px;
           height: 300px;
           margin-top: 150px;
@@ -411,4 +434,11 @@ transform: rotate(-35deg);
         gap:27px;
 
     }
-    
+    .hej{
+        position: absolute;
+        height: 1500px;
+        top:-500px;
+        left: 0px;
+        z-index: -2;
+       
+    }

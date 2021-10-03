@@ -9,7 +9,10 @@ html, body {
 #tidspanel{
     border-bottom: 1px solid;
     border-color: #aaaa;
-    
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 #working-hours i{
     font-size: 1.3rem !important;
@@ -129,11 +132,11 @@ html, body {
     .sektion6{
 
         justify-content: center;
-        height: 800px;
+        height: 1000px;
         display: grid;
         gap: 20px;
-        grid-template-columns: repeat(3, 350px);
-        grid-template-rows: 350px 350px;
+        grid-template-columns: repeat(3, 450px);
+        grid-template-rows: 436px 436px;
         
       }
 
@@ -141,22 +144,17 @@ html, body {
        background-color: white;
        
     }
-    .to{
     
-        
-        margin-top: 0;
-        margin-left: 133px;
-    }
     .tand{
-        
         position: relative;
-        left: -85px;
-        top: 9px;
+        left: -97px;
+        top: 33px;
     }
 
     .rubrik{
         text-align: center;
         font-size: 16px;
+       margin-top: 50px;
 
     }
     .undertext {
@@ -167,20 +165,20 @@ html, body {
         margin-bottom: 30px;
     }
     .to{
-        margin-left: 115px;
-        margin-top: 16px;
+        margin-left: 160px;
+        margin-top: 70px;
     }
     
     .box1 .tand{
-        left: -80px;
+        left: -90px;
     }
     .box5 .tand{
-        left: -71.5px;
+        left: -80.5px;
        
     }
     .box6 .tand{
-        left:-79px;
-        top:10px;
+        left:-89px;
+        
     }
    
     .sektion7{
